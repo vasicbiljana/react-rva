@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  width: 100%;
+  background-color: #1f4c76;
+  display: flex;
+  justify-content: center;
+}
+
+.header ul{
+  display: flex;
+  justify-content: center;
+}
+.header ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+
+}
+.header ul li a{
+ text-decoration: none;
+ text-transform: uppercase;
+ margin-left: 15px;
+ font-weight: 700;
+ color: #fff;
+}
+
+.sliderImg{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-attachment: scroll, local;
+
+}
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e4e4e4;
+  padding: 2%;
+}
+.block{
+  background-color: #e4e4e4;
+  border:3px solid white;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color:#1982d1;
+}
+.block h2{
+  line-height: 0;
+}
+.block h3{
+  line-height: 0;
+}
+.containerNews{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contentNews{
+  width: 45%;
+  background-color: rgba(159, 159, 159, 0.197);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form{
+  width:60%;
+  padding: 30px;
+  border: 1px solid rgba(162, 162, 162, 0.238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-shadow: 5px 5px 5px 0px rgba(227,227,227,1);
+
+}
+
+#btn{
+  background-color: #1f4c76;
+  padding: 1%;
+  font-weight: 500;
+  color: white;
+}
+select{
+  width: 100%;
+  height: 25px;
+}
+#errorFname, #errorLname, #errorPhone, #errorEmail{
+  color: red;
+  font-style: italic;
+}
+.titleForm{
+ color: #1f4c76;
+  font-weight: 600;
+  text-align: center;
+}
+.errors{
+  color: red;
+  font-style: italic;
+}
+
+.form .input{
+  width: 80%;
+  height: 30px;
+  margin: 10px auto;
+  border: 1px solid #1f4c76;
+}
+
+.btnSubmit{
+  width: 81%;
+  height: 35px;
+  background-color: #1f4c76;
+  border: 1px solid #1f4c76;
+  color: white;
+  font-weight: 700;
+}
+.btnSubmit:hover{
+  background-color: white;
+ color: #1f4c76;
+  border: 2px solid #1f4c76;
+  color: #1f4c76;
+  font-weight: 700;
+}
+.cards{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.card{
+  width:30%;
+
+  border: 1px solid #ccc;
+  margin: 10px 10px;
+}
+.card img{
+  width:100%;
+  height: 200px;
+}
+.card-body{
+  background-color: white;
+}
+.card-title{
+  font-size: 25px;
+  text-align: center;
+
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1f4c76;
+}
+
+.footer{
+  background-color:  #1f4c76;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
